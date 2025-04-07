@@ -1,0 +1,45 @@
+/* untuk nav bar */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    
+} */
+
+nav {
+    background-color: rgb(143, 181, 253);
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem ;
+    list-style: none;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(34, 30, 30);
+    font-weight: 700;
+    padding: 8px 0;
+    transition-duration: 300ms;
+    border-bottom: 1px solid #555eac00;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid #555dac;
+    color: #555dac;
+}
+
+div h1 {
+    font-size: 45px;
+}

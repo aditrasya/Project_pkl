@@ -1,0 +1,168 @@
+/* untuk nav bar */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5d6be7;
+}
+
+nav {
+    background-color: rgb(143, 181, 253);
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem ;
+    list-style: none;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(34, 30, 30);
+    font-weight: 700;
+    padding: 8px 0;
+    transition-duration: 300ms;
+    border-bottom: 1px solid #555eac00;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid #555dac;
+    color: #555dac;
+}
+
+div h1 {
+    font-size: 45px;
+}
+
+.card {
+    background-color: rgb(171, 181, 197);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 80%;
+}
+
+/*Untuk data menu*/
+.card-body {
+    padding: 1rem;
+}
+
+    /* Gaya untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+table, th, td {
+    border: 2px solid #110f0f;
+}
+
+th, td {
+    padding: 0.75rem;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+    /* Gaya untuk button */
+button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+    /* Gaya untuk button yang berbeda */
+.buton1 {
+    background-color: #28a745;
+}
+
+.buton1:hover {
+    background-color: #218838;
+}
+
+.buton2 {
+    background-color: #17a2b8;
+}
+
+.buton2:hover {
+    background-color: #138496;
+}
+
+.buton3 {
+    background-color: #dc3545;
+}
+
+.buton3:hover {
+    background-color: #c82333;
+}
+
+    /* Gaya untuk form tambah item */
+#add-item-form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+#add-item-form h2 {
+    margin-bottom: 1rem;
+}
+
+#add-item-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#add-item-form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#add-item-form button {
+    background-color: #28a745;
+}
+
+#add-item-form button:hover {
+    background-color: #218838;
+}
+
+    /* Gaya untuk tombol 'Tambah Item' */
+.main-tambah {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#show-form-button {
+    background-color: #007bff;
+}
+
+#show-form-button:hover {
+    background-color: #0056b3;
+}
